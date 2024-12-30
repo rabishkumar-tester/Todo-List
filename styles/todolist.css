@@ -1,0 +1,145 @@
+html {
+    width: 80vw;
+
+}
+
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.input-name {
+    padding : 10px;
+    vertical-align: middle;
+    outline: none;
+
+}
+
+.input-date {
+    padding: 10px;
+    vertical-align: middle;
+    outline: none;
+}
+
+.input-date:hover,
+.input-name:hover,
+.add-button:hover,
+.delete-button:hover,
+.todo-list-task:hover {
+    box-shadow: 3px 3px 10px rgba(22, 183, 148, 0.5);
+}
+
+.add-button {
+    padding: 10px 30px;
+    width: 100px;
+    vertical-align: middle;
+    background-color: green;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.add-button:active {
+    opacity: 0.7;
+}
+
+.todo-grid {
+    margin-top: 10px;
+}
+
+
+.todo-list-task p {
+    display: inline;
+}
+
+.todo-list-task {
+    display: flex;
+    padding: 5px;
+    width: 425px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.item-name  {
+    flex: 1;
+    overflow: hidden;
+}
+
+.item-name > p {
+    word-wrap: break-word;
+    white-space: pre-line;
+}
+
+.inner-flex {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+}
+
+
+
+.task-name {
+    font-weight: bold;
+}
+
+
+.delete-button {
+    padding: 10px 30px;
+    vertical-align: middle;
+    width: 100px;
+    background-color: red;
+    color: white;
+    border:none;
+    cursor: pointer;
+}
+
+.delete-button:active {
+    opacity: 0.7;
+}
+
+.todo-input-grid{
+    width: 425px;
+    height: 50px;
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.delete-button:active{
+    background-color: rgb(223, 22, 190);
+    transition: background-color 3s;
+
+}
+
+.jupiter-img {
+    display: inline;
+    width: 800px;
+    position: fixed;
+    z-index: 5;
+    top: -60%;
+    right: -10%;
+    transform: rotate(-30deg);
+}
+
+/* .background {
+    z-index: -9999;
+    object-fit: cover;
+    object-position: center;
+} */
+
+.body-class {
+    background-image: url(../images/realbg.png);
+    background-size: 100vw;
+    background-attachment: fixed;
+    background-position: center;
+    z-index: 0;
+    position: relative;
+}
+
+.todo-list-task {
+    background-color: rgba(255, 255, 255, 0.591);
+}

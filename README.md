@@ -2,5 +2,6 @@
 Practicing Todo List
 
 
-Technology Used :- 
-	[![My Skills](https://skillicons.dev/icons?i=js,html,css,wasm)](https://skillicons.dev)
+Technology Used :-
+
+[![My Skills](https://skillicons.dev/icons?i=js,html,css)](https://skillicons.dev)

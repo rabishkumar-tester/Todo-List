@@ -1,7 +1,7 @@
 # Todo-List
 Practicing Todo List
 
-Website :- [a relative link][https://rabishkumar-tester.github.io/Todo-List/]
+Website :- [a relative link](https://rabishkumar-tester.github.io/Todo-List/)
 
 Technology Used :-
 
